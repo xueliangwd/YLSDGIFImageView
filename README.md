@@ -7,8 +7,9 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+首先gif图是能正常显示，一旦侧滑VC，或者滚动table，gif图就消失不见。
+UIImageView显示GIF的本质是不停的去刷新换图，但这种绘制操作肯定是消耗资源的，所以在用户与界面有交互的时候，为了保证界面的流畅，该操作应该会被挂起，也就是说，这种操作应该不是一直在NSDefaultRunLoopMode中
+写一个UIImageView的category，如果是GIF图，就控制在恰当的时机切换不同的mode，展示图片还是GIF，这样的工作呢，很多前辈已经替我们做了，github搜索就能有，比如：UIImageView-PlayGIF
 ## Requirements
 
 ## Installation
