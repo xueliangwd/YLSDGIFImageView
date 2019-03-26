@@ -1,0 +1,11 @@
+use_frameworks!
+platform :ios, '8.0'
+target 'YLSDGIFImageView_Example' do
+  pod 'YLSDGIFImageView', :path => '../'
+# pod 'SDWebImage'
+
+  target 'YLSDGIFImageView_Tests' do
+    inherit! :search_paths
+    
+  end
+end

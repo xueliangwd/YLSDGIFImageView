@@ -1,0 +1,25 @@
+PODS:
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - YLSDGIFImageView (0.1.0):
+    - SDWebImage
+
+DEPENDENCIES:
+  - YLSDGIFImageView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  YLSDGIFImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  YLSDGIFImageView: 1d5e30ad8639e4d8d18bc62a8e23dceb62b2ae71
+
+PODFILE CHECKSUM: 8e9cb8805eb1beae973867d8a01ed138479398ec
+
+COCOAPODS: 1.5.3

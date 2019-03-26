@@ -1,0 +1,6 @@
+framework module YLSDGIFImageView {
+  umbrella header "YLSDGIFImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
